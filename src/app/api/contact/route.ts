@@ -250,7 +250,7 @@ export async function POST(req: Request) {
               </div>
             </div>
             <div class="footer">
-              © برق الماسية لأجهزة الأمن والسلامة — barqalmasia.com
+              © برق الماسية لأجهزة الأمن والسلامة — barqalmasia.net
             </div>
           </div>
         </div>

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "استعرض مشاريع شركة برق الماسية في تركيب أنظمة مكافحة الحريق والإنذار المبكر وكاميرات المراقبة الأمنية في المملكة العربية السعودية.",
   alternates: {
-    canonical: "https://barqalmasia.org/projects",
+    canonical: "https://barqalmasia.net/projects",
   },
   openGraph: {
     title: "مشاريعنا المتميزة | برق الماسية",
     description:
       "استعرض مشاريع برق الماسية في تركيب أنظمة مكافحة الحريق والأمن والسلامة في المملكة العربية السعودية.",
-    url: "https://barqalmasia.org/projects",
+    url: "https://barqalmasia.net/projects",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
 };

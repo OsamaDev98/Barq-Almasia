@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "CCTV",
     "safety systems Saudi Arabia",
   ],
-  authors: [{ name: "شركة برق الماسية", url: "https://barqalmasia.com" }],
+  authors: [{ name: "شركة برق الماسية", url: "https://barqalmasia.net" }],
   creator: "برق الماسية",
   publisher: "برق الماسية",
   robots: {
@@ -46,13 +46,13 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   alternates: {
-    canonical: "https://barqalmasia.com",
-    languages: { "ar-SA": "https://barqalmasia.com" },
+    canonical: "https://barqalmasia.net",
+    languages: { "ar-SA": "https://barqalmasia.net" },
   },
   openGraph: {
     type: "website",
     locale: "ar_SA",
-    url: "https://barqalmasia.com",
+    url: "https://barqalmasia.net",
     siteName: "برق الماسية لأجهزة الأمن والسلامة",
     title: "برق الماسية | رواد أنظمة الأمن ومكافحة الحريق في السعودية",
     description:
@@ -105,9 +105,9 @@ export default function RootLayout({
               "@type": ["Organization", "LocalBusiness"],
               name: "شركة برق الماسية لأجهزة الأمن والسلامة",
               alternateName: "Barq Almasia",
-              url: "https://barqalmasia.org",
-              logo: "https://barqalmasia.org/og-image.png",
-              image: "https://barqalmasia.org/og-image.png",
+              url: "https://barqalmasia.net",
+              logo: "https://barqalmasia.net/og-image.png",
+              image: "https://barqalmasia.net/og-image.png",
               description:
                 "شركة متخصصة في توريد وتركيب وصيانة أنظمة مكافحة الحريق والإنذار المبكر وكاميرات المراقبة الأمنية في المملكة العربية السعودية منذ 2015.",
               foundingDate: "2015",

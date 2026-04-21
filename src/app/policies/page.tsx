@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "تعرّف على سياسة الخصوصية وشروط الاستخدام الخاصة بشركة برق الماسية لأجهزة الأمن والسلامة.",
   robots: { index: false, follow: false },
   alternates: {
-    canonical: "https://barqalmasia.org/policies",
+    canonical: "https://barqalmasia.net/policies",
   },
 };
 

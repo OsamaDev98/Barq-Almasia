@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://barqalmasia.org";
+  const baseUrl = "https://barqalmasia.net";
 
   return [
     {
