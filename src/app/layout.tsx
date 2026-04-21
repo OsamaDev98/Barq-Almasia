@@ -8,8 +8,14 @@ const cairo = Cairo({
   subsets: ["arabic"],
 });
 
+// Dynamically resolves to the Vercel deployment URL so OG images work
+// on barq-almasia.vercel.app until the custom domain is live.
+const siteUrl = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : "https://barqalmasia.net";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://barqalmasia.org"),
+  metadataBase: new URL(siteUrl),
 
   title: {
     default: "برق الماسية لأجهزة الأمن والسلامة | Barq Almasia",
@@ -48,9 +54,9 @@ export const metadata: Metadata = {
     locale: "ar_SA",
     url: "https://barqalmasia.com",
     siteName: "برق الماسية لأجهزة الأمن والسلامة",
-    title: "برق الماسية لأجهزة الأمن والسلامة",
+    title: "برق الماسية | رواد أنظمة الأمن ومكافحة الحريق في السعودية",
     description:
-      "رواد في أنظمة مكافحة الحريق والأمن والسلامة في المملكة العربية السعودية. خبرة منذ 2015.",
+      "شركة برق الماسية متخصصة في توريد وتركيب وصيانة أنظمة مكافحة الحريق والإنذار المبكر وكاميرات المراقبة وأنظمة الأمن للمنشآت الحكومية والتجارية في المملكة العربية السعودية منذ 2015.",
     images: [
       {
         url: "/og-image.png",
@@ -62,9 +68,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "برق الماسية لأجهزة الأمن والسلامة",
+    title: "برق الماسية | رواد أنظمة الأمن ومكافحة الحريق في السعودية",
     description:
-      "رواد في أنظمة مكافحة الحريق والأمن في المملكة العربية السعودية.",
+      "شركة برق الماسية متخصصة في توريد وتركيب وصيانة أنظمة مكافحة الحريق وكاميرات المراقبة وأنظمة الإنذار للمنشآت في المملكة العربية السعودية منذ 2015.",
     images: ["/og-image.png"],
   },
   icons: {
