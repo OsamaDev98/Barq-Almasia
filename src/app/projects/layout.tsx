@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "استعرض مشاريع برق الماسية في تركيب أنظمة مكافحة الحريق والأمن والسلامة في المملكة العربية السعودية.",
     url: "https://barqalmasia.org/projects",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
 };
 

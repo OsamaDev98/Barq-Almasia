@@ -53,7 +53,7 @@ export const metadata: Metadata = {
       "رواد في أنظمة مكافحة الحريق والأمن والسلامة في المملكة العربية السعودية. خبرة منذ 2015.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "برق الماسية لأجهزة الأمن والسلامة",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: "برق الماسية لأجهزة الأمن والسلامة",
     description:
       "رواد في أنظمة مكافحة الحريق والأمن في المملكة العربية السعودية.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
   icons: {
     icon: "/favicon.ico",
@@ -100,8 +100,8 @@ export default function RootLayout({
               name: "شركة برق الماسية لأجهزة الأمن والسلامة",
               alternateName: "Barq Almasia",
               url: "https://barqalmasia.org",
-              logo: "https://barqalmasia.org/og-image.jpg",
-              image: "https://barqalmasia.org/og-image.jpg",
+              logo: "https://barqalmasia.org/og-image.png",
+              image: "https://barqalmasia.org/og-image.png",
               description:
                 "شركة متخصصة في توريد وتركيب وصيانة أنظمة مكافحة الحريق والإنذار المبكر وكاميرات المراقبة الأمنية في المملكة العربية السعودية منذ 2015.",
               foundingDate: "2015",
@@ -118,7 +118,7 @@ export default function RootLayout({
                 "@type": "ContactPoint",
                 contactType: "customer service",
                 availableLanguage: ["العربية"],
-                email: "info@barqalmasia.com",
+                email: "info@barqalmasia.net",
               },
               sameAs: ["https://maps.app.goo.gl/VS8hztGGCPpbDrBz8"],
               hasMap: "https://maps.app.goo.gl/VS8hztGGCPpbDrBz8",

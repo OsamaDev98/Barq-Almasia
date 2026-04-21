@@ -35,7 +35,7 @@ export default function Footer() {
               <a href="#" className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#f16c48] hover:border-[#f16c48] transition-all duration-300">
                 <span className="material-symbols-outlined text-lg">share</span>
               </a>
-              <a href="mailto:info@barqalmasia.com" className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#f16c48] hover:border-[#f16c48] transition-all duration-300">
+              <a href="mailto:osamadev921@gmail.com" className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#f16c48] hover:border-[#f16c48] transition-all duration-300">
                 <span className="material-symbols-outlined text-lg">mail</span>
               </a>
               <a href="https://maps.app.goo.gl/VS8hztGGCPpbDrBz8" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#f16c48] hover:border-[#f16c48] transition-all duration-300">
@@ -93,7 +93,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-white font-bold mb-1">البريد الإلكتروني</p>
-                  <a href="mailto:info@barqalmasia.com" className="text-sm hover:text-[#f16c48] transition-colors">info@barqalmasia.com</a>
+                  <a href="mailto:osamadev921@gmail.com" className="text-sm hover:text-[#f16c48] transition-colors">info@barqalmasia.net</a>
                 </div>
               </li>
               <li className="flex items-start justify-start gap-4 group">
@@ -102,7 +102,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-white font-bold mb-1">الهاتف الموحد</p>
-                  <a href="tel:+966500000000" className="text-sm hover:text-[#f16c48] transition-colors block" dir="ltr">+966 50 000 0000</a>
+                  <a href="tel:+966540029592" className="text-sm hover:text-[#f16c48] transition-colors block" dir="ltr">+966 54 002 9592</a>
                 </div>
               </li>
             </ul>

@@ -50,25 +50,9 @@ src/
     └── projects.ts            # Projects data
 public/
 ├── favicon.ico
-├── og-image.jpg               # ⚠️ Add before deploy (1200×630px)
+├── og-image.png               # Added before deploy (1200×630px)
 └── robots.txt
 ```
-
----
-
-## ⚙️ Environment Variables
-
-Create a `.env.local` file in the project root:
-
-```env
-SMTP_EMAIL=your_gmail_app
-SMTP_PASSWORD=your_gmail_app_password
-```
-
-> **How to get Gmail App Password:**
-> Google Account → Security → 2-Step Verification → App Passwords → Generate for "Mail"
-
----
 
 ## 🚀 Getting Started
 
@@ -78,17 +62,6 @@ npm run dev       # Development server at http://localhost:3000
 npm run build     # Production build
 npm run start     # Start production server
 ```
-
----
-
-## 📦 Pre-Deployment Checklist
-
-- [ ] Add `public/og-image.jpg` (1200×630px branded image)
-- [ ] Set `SMTP_EMAIL` and `SMTP_PASSWORD` in hosting environment variables
-- [ ] Update phone number in `Contact.tsx` and `Footer.tsx`
-- [ ] Replace placeholder WhatsApp number in `WhatsAppButton.tsx`
-- [ ] Submit `https://barqalmasia.org/sitemap.xml` to Google Search Console
-- [ ] Add Google Search Console verification meta tag to `layout.tsx` if needed
 
 ---
 

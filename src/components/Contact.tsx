@@ -156,7 +156,7 @@ export default function Contact() {
                 </div>
                 <div className="text-start">
                   <h4 className="font-bold text-stone-950 dark:text-white group-hover:text-[#f16c48] transition-colors mb-1">اتصال مباشر</h4>
-                  <p className="text-stone-500 font-medium" dir="ltr">+966 50 000 0000</p>
+                  <a href="tel:+966540029592" className="text-stone-500 font-medium" dir="ltr">+966 54 002 9592</a>
                 </div>
               </div>
               <div className="w-full h-[1px] bg-stone-100 dark:bg-stone-800"></div>
@@ -166,7 +166,7 @@ export default function Contact() {
                 </div>
                 <div className="text-start">
                   <h4 className="font-bold text-stone-950 dark:text-white group-hover:text-[#f16c48] transition-colors mb-1">البريد الإلكتروني</h4>
-                  <p className="text-stone-500 font-medium">info@barqalmasia.com</p>
+                  <a href="mailto:osamadev921@gmail.com" className="text-stone-500 font-medium">info@barqalmasia.net</a>
                 </div>
               </div>
               <div className="w-full h-[1px] bg-stone-100 dark:bg-stone-800"></div>
@@ -176,7 +176,7 @@ export default function Contact() {
                 </div>
                 <div className="text-start">
                   <h4 className="font-bold text-stone-950 dark:text-white group-hover:text-[#f16c48] transition-colors mb-1">المقر الرئيسي</h4>
-                  <p className="text-stone-500 font-medium">المملكة العربية السعودية، الرياض</p>
+                  <a href="https://maps.app.goo.gl/VS8hztGGCPpbDrBz8" target="_blank" rel="noopener noreferrer" className="text-stone-500 font-medium">المملكة العربية السعودية، الرياض</a>
                 </div>
               </div>
             </div>
